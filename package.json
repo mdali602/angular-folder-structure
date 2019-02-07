@@ -35,7 +35,7 @@
     "ngx-carousel-3d": "^1.0.1",
     "ngx-masonry": "^1.1.2",
     "ngx-spinner": "^6.1.2",
-    "rxjs": "^6.0.0",
+    "rxjs": "6.0.0",
     "rxjs-compat": "^6.2.2",
     "zone.js": "^0.8.26"
   },

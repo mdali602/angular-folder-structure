@@ -12,5 +12,9 @@ export const CONTENT_ROUTES: Routes = [
   {
     path: 'contact',
     loadChildren: './modules/contact/contact.module#ContactModule'
+  },
+  {
+    path: 'plan',
+    loadChildren: './modules/plan/plan.module#PlanModule'
   }
 ];
