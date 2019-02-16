@@ -14,7 +14,24 @@ export const CONTENT_ROUTES: Routes = [
     loadChildren: './modules/contact/contact.module#ContactModule'
   },
   {
-    path: 'plan',
+    path: '',
     loadChildren: './modules/plan/plan.module#PlanModule'
+  },
+  {
+    path: '',
+    loadChildren: './modules/plann/plann.module#PlannModule'
+  },
+  {
+    path: '',
+    loadChildren: './modules/budget/budget.module#BudgetModule'
   }
+  //,
+  /* {
+    path: '',
+    loadChildren: './modules/staff/staff.module#StaffModule'
+  }, */
+  /* {
+    path: '',
+    loadChildren: './modules/budget/budget.module#BudgetModule'
+  } */
 ];

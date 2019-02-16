@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 // import { ProjectResolver } from './project-resolver.service';
-import { PlanComponent } from '@app/modules/plan/pages/plan.component';
+import { PlanComponent } from '@app/modules/plan/pages/plan/plan.component';
 // import { ProjectDetailsComponent } from './pages/project-details/project-details.component';
 
 export const routes: Routes = [

@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 // import { CommonModule } from '@angular/common';
-import { PlanComponent } from '@app/modules/plan/pages/plan.component';
+import { PlanComponent } from '@app/modules/plan/pages/plan/plan.component';
 import { PlanRoutingModule } from './plan.routing';
 import { SharedModule } from '@app/shared';
 @NgModule({
